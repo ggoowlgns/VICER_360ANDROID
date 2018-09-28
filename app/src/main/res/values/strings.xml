@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">HUFS ICE VICER</string>
+    <string name="start_discovery">Start discovery</string>
+    <string name="stop_discovery">Stop discovery</string>
+    <string name="start_preview">Start preview</string>
+    <string name="stop_preview">Stop Preview</string>
+    <string name="stop_play">Stop playing</string>
+    <string name="file_manager">File manager</string>
+    <string name="device_settings">Device settings</string>
+    <string name="camera_settings">Camera settings</string>
+    <string name="device_not_connected">Device does not connected</string>
+    <string name="start_index">Start index</string>
+    <string name="request_count">Request count</string>
+    <string name="load_files">Load files</string>
+    <string name="copy_file">Copy file</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="beep_level">Beep level</string>
+    <string name="led_indicator">LED indicator</string>
+    <string name="power_off">Auto power off</string>
+    <string name="storage_total">Total Memory (MB)</string>
+    <string name="storage_used">Used Memory (MB)</string>
+    <string name="storage_available">Available Memory (MB)</string>
+    <string name="default_info">None</string>
+    <string name="wait_response">Updating</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete all</string>
+    <string name="copy_to_phone">Copy to phone</string>
+    <string name="play_preview_video">Play video</string>
+    <string name="preview_image">Preview image</string>
+    <string name="image_preview">==== IMAGE PREVIEW ====</string>
+    <string name="battery_level">Battery level (%)</string>
+    <string name="charging_status">Charging status</string>
+    <string name="reset_settings">Reset settings</string>
+    <string name="reset_connection">Reset connection</string>
+    <string name="reset_all">Reset all</string>
+    <string name="reset">Reset</string>
+    <string name="format_device">Format device</string>
+    <string name="format">Format</string>
+    <string name="lens_mode">Lens mode</string>
+    <string name="white_balance">White Balance</string>
+    <string name="photo_hdr">Photo HDR</string>
+    <string name="recording_hdr">Recording HDR</string>
+    <string name="exposure_value">Exposure value</string>
+    <string name="time_lapse_interval">Time lapse interval</string>
+    <string name="video_looping_recording_time">Video looping recording time</string>
+    <string name="main_lens">Main lens</string>
+    <string name="iso_sensitivity_limit">ISO sensitivity Limit</string>
+    <string name="timer">Timer</string>
+    <string name="sharpness">Sharpness</string>
+    <string name="wind_cut">Wind cut</string>
+    <string name="single_lens_video_resolution">Single Lens Video Resolution</string>
+    <string name="dual_lens_video_resolution">Dual Lens Video Resolution</string>
+    <string name="single_lens_time_lapse_resolution">Single Lens TimeLapse Resolution</string>
+    <string name="dual_lens_time_lapse_resolution">Dual Lens TimeLapse Resolution</string>
+    <string name="firmware_info">Firmware version</string>
+
+    <string name="camera_view_take_picture">Take a picture</string>
+    <string name="camera_button_take_picture_shot">Shot</string>
+    <string name="camera_button_take_picture_shot_cancel">Cancel</string>
+
+    <string name="camera_view_record_video">Record a video</string>
+    <string name="camera_button_record_start">Start</string>
+    <string name="camera_button_record_start_cancel">Cancel</string>
+    <string name="camera_button_record_video_pause">Pause</string>
+    <string name="camera_button_record_video_resume">Resume</string>
+    <string name="camera_button_record_stop">Stop</string>
+
+    <string name="file_name">File name : </string>
+    <string name="file_duration">Duration : </string>
+    <string name="file_resolution">Resolution : </string>
+    <string name="file_frame_rate">Frame rate : </string>
+    <string name="file_time">Taken time : </string>
+
+    <string name="dial_mode">Dial mode</string>
+</resources>

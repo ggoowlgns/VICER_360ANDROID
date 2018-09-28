@@ -1,0 +1,4 @@
+#Sun Sep 02 19:15:37 KST 2018
+base.0=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+renamed.0=classes.dex
+file.0=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

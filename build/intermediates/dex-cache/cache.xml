@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\bad165c414d3ce41b573ef4974c3ee157ef150c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_8b914a764fe83cefc8154aadb5b1b6f9a3a76db5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\008c7bf8307fb9f14dc120922d5d16a8411a6adc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_3456fa42b2d407dc0d908aa6e8348ee87afd9af8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.gradle\caches\modules-2\files-2.1\com.googlecode.mp4parser\isoparser\1.1.7\bb17c600cf992fdfd8d5ba58f3f424b34ee46ea2\isoparser-1.1.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bb17c600cf992fdfd8d5ba58f3f424b34ee46ea2">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\isoparser-1.1.7_dfd38c4955b23a309118836f3bece8bc00f283c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\edd2f6c2b6f141f08ef6bddbc84ec0fafba9ca11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_6c0e1664b233e8dc9ea1708644ab10c8b557bb90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\f530f8b506f3fc3d00a2ccce36b05bc57365cb3f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_b045cad99b93ce4194fe8ac668840e8704b4f658.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\00ff2bd52b060130d058681fa26a3359cd8ec5e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_f930a41613c98bd10f0719b4364a89d553ca4db4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\023efc6de60c3a0882a1028787389da3bd7c6a3d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="53d2a33921dc42dbb6d52ca5a37bac6b9dec411a">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_c0f4124539532b74dc1d1b726a93aaf925702198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3481402321bc72a79fb5f55c046704cd5ea021dd">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_03d89568aa6c98238a857735f2b14c7fe7b44fbd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_c4bf73382abe90494442b2fc5fa3e35c457663e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.gradle\caches\modules-2\files-2.1\org.aspectj\aspectjrt\1.8.2\7dede91c0c36b1265fc99c55283b90ed2be144c8\aspectjrt-1.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7dede91c0c36b1265fc99c55283b90ed2be144c8">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\aspectjrt-1.8.2_732f41c2d06f923d64685d7e34b2f5611311cf05.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6a7c9b6bc92983b57113ec6e4bf82c29feeb426">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_869ed03633a0650e675e73c112f6a45840afa000\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\5c6d7fb600f94ec7137f17c3719e8525638697e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_2f948c93bbaf27409057e0b68b7642f363520bc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\531ba6e40c143f0fe776560c04ca534b2ed8aaff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_232ce59da6536b9268b03ad2ae130faff8c5e61f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_28cc850f11e85d734ee581abb80f2e0b22a5185a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\634110904fb57b6e7a05c9ac5b66a704d049929b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_5b2bf2bec40df64c85d0487603e96ec5f261e7eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\JiHoon\.android\build-cache\a8e80fa76632fc523d4906b2f68a0fba79041542\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\JiHoon\Desktop\JH\360\BasicSampleApp\app\build\intermediates\pre-dexed\debug\classes_ec851c907dbef2818ac3c5ce45975ea50ba0da02.jar" />
+    </item>
+
+</items>

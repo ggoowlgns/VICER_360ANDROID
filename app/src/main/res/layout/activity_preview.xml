@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dip"
+    android:layout_marginEnd="5dip"
+    android:layout_marginStart="5dip"
+    android:layout_marginTop="10dip"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:color="#ffa0a0">
+
+        <com.samsung.android.sdk.gear360.sample.service.MySurfaceView
+            android:id="@+id/suf_videoPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/lay_preview_waiting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingStart="5dp">
+
+        <Button
+            android:id="@+id/button_preview"
+            style="@style/AppTheme.CommonButton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/start_preview" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dial_mode"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_camera_dial_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:dropDownWidth="120dp"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lens_mode"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+
+                <Spinner
+                    android:id="@+id/spinner_lens_mode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:dropDownWidth="120dp"
+                    android:paddingBottom="4dp"
+                    android:paddingTop="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_view_take_picture"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button_picture"
+            style="@style/AppTheme.CommonButton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/camera_button_take_picture_shot" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/camera_view_record_video"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_start_record"
+                style="@style/AppTheme.CommonButton"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/camera_button_record_start" />
+
+            <Button
+                android:id="@+id/button_pause_record"
+                style="@style/AppTheme.CommonButton"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/camera_button_record_video_pause" />
+        </LinearLayout>
+
+        <View style="@style/list_item_line" />
+
+        <Button
+            android:id="@+id/button_file_manager"
+            style="@style/AppTheme.CommonButton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onFileManagerClicked"
+            android:text="@string/file_manager" />
+
+        <Button
+            android:id="@+id/button_device_setting"
+            style="@style/AppTheme.CommonButton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onDeviceSettingClicked"
+            android:text="@string/device_settings" />
+
+        <Button
+            android:id="@+id/button_camera_setting"
+            style="@style/AppTheme.CommonButton"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onCameraSettingClicked"
+            android:text="@string/camera_settings" />
+    </LinearLayout>
+</LinearLayout>

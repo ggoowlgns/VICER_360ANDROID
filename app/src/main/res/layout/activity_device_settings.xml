@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.samsung.android.sdk.gear360.sample.service.DeviceSettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/beep_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beep_level"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner_beep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View style="@style/list_item_line" />
+
+    <LinearLayout
+        android:id="@+id/power_off_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/power_off"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner_power_off"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/led_indicator"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch_led"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:checked="false"
+            android:focusable="false"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/reset_settings_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/reset_settings"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_reset_settings"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/reset"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:checked="false"
+            android:focusable="false"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/reset_connection_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/reset_connection"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_reset_connection"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/reset"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:checked="false"
+            android:focusable="false"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/reset_all_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/reset_all"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_reset_all"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/reset"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:checked="false"
+            android:focusable="false"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/format_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/format_device"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_format"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/format"
+            android:textAlignment="center"
+            android:textSize="12sp"
+            android:checked="false"
+            android:focusable="false"
+            android:gravity="center_vertical" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/storage_info_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/storage_total"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_storage_total"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/default_info"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/storage_info_used"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/storage_used"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_storage_used"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/default_info"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/storage_info_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/storage_available"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_storage_free"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/default_info"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/battery_level_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/battery_level"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_battery_level"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/default_info"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <RelativeLayout
+        android:id="@+id/battery_charging_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/charging_status"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_charging_status"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:text="@string/default_info"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/list_item_line" />
+
+    <LinearLayout
+        android:id="@+id/firmware_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="@string/firmware_info"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_firmware_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/default_info"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View style="@style/list_item_line" />
+
+</LinearLayout>

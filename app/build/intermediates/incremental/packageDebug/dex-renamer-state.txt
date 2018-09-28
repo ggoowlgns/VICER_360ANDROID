@@ -1,0 +1,7 @@
+#Sun Sep 02 23:08:59 KST 2018
+base.0=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_869ed03633a0650e675e73c112f6a45840afa000
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_28cc850f11e85d734ee581abb80f2e0b22a5185a\\classes.dex
+base.1=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_28cc850f11e85d734ee581abb80f2e0b22a5185a
+file.0=C\:\\Users\\JiHoon\\Desktop\\JH\\360\\BasicSampleApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_869ed03633a0650e675e73c112f6a45840afa000\\classes.dex

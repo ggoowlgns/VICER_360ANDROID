@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight">
+
+    <item>
+        <selector xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:state_enabled="false"
+                android:state_focused="true"
+                android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#73d4d4d4" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item
+                android:state_enabled="false"
+                android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#59d4d4d4" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item
+                android:state_focused="true"
+                android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#66d4d4d4" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#d4d4d4" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#73d4d4d4" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+            <item android:drawable="@drawable/btn_default">
+                <shape android:shape="rectangle">
+                    <solid android:color="#00000000" />
+
+                    <corners android:radius="2dp" />
+                </shape>
+            </item>
+        </selector>
+        <!--  <item android:drawable="@drawable/btn_default_9"/> -->
+    </item>
+
+</ripple>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.samsung.android.sdk.gear360.sample.connection.DiscoveryActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button_start_discovery"
+            style="@style/AppTheme.CommonButton"
+            android:text="@string/start_discovery" />
+
+        <Button
+            android:id="@+id/button_stop_discovery"
+            style="@style/AppTheme.CommonButton"
+            android:text="@string/stop_discovery"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/view_device_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_connection_waiting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="#c4e6ff" />
+    </RelativeLayout>
+</RelativeLayout>
