@@ -39,3 +39,9 @@ Android Studio 2.3.3을 사용하여 Samsung Galaxy 7 환경으로 구현하였�
    * 전송 통신 FRAME
    <img src="./img/fream_struct.JPG">
    
+
+
+## 라이센스
+* SDK : https://developer.android.com/studio/terms?hl=ko
+* jdk : https://www.oracle.com/technetwork/java/javase/terms/license/index.html
+* Gear360 SDK (Samsung Electornics) : https://developer.samsung.com/end-user-license
