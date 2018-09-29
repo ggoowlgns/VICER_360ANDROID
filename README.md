@@ -2,7 +2,7 @@
 
 ## 소개
 * Samsung Gear360 와 연동되는 App으로 수신받은 frame을 Streaming Server 로 보내주는 기능을 수행한다.
-<img src="./img/gear360.jpg">
+      <img src="./img/gear360.jpg">
 
 #### Web Server 기능
 * 자바 플랫폼을 위한 오픈소스 애플리케이션 프레임 워크인 Spring을 사용하여 안드로이드와 연동을 통해
