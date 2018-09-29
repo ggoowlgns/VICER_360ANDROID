@@ -20,4 +20,22 @@ Android Studio 2.3.3을 사용하여 Samsung Galaxy 7 환경으로 구현하였�
 * Java SE Development Kit 8u181 에서 OS에 맞는 버전을 받아 sdk와 마찬가지로 External Tools의 jdk칸에 경로를 설정 해줍니다.
 
 
-## 
+## 기술 설명
+* Samsung 측의 권한을 받은 사람에게 제공되는 Gear360 SDK 와 Gear360 Sample App 을 기반으로 제작하였다.
+<img src="./img/gear360_sampleApp.JPG">
+
+* Samsung 에서 제공하는 Gear360 SDK 를 활용하기 위해서는 관련 당사에서 제공하는 API의 참조 자료를 활용 해야한다. 
+   * Samsung Gear 360 SDK 0.1.12 API Reference:(http://img-developer.samsung.com/onlinedocs/gear360/android/)
+<img src="./img/gear360_apiRef.JPG">
+
+* 핵심 기능
+   * YUV420 format 영상으로 gear360으로 부터 받은 frame을 RGB format으로 변환시켜준다.
+      * method in PreviewActivity : public void decodeYUV(int[] out, byte[] fg, int width, int height)
+      * <img src="./img/yuv_rpg_matrix.png">
+  
+   * RGB - YUV 비교
+   <img src="./img/YUV_RGB.jpg">
+   
+   * 전송 통신 FRAME
+   <img src="./img/fream_struct.JPG">
+   
