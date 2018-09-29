@@ -31,7 +31,7 @@ Android Studio 2.3.3을 사용하여 Samsung Galaxy 7 환경으로 구현하였�
 * 핵심 기능
    * YUV420 format 영상으로 gear360으로 부터 받은 frame을 RGB format으로 변환시켜준다.
       * method in PreviewActivity : public void decodeYUV(int[] out, byte[] fg, int width, int height)
-      * <img src="./img/yuv_rpg_matrix.png">
+      <img src="./img/yuv_rpg_matrix.png">
   
    * RGB - YUV 비교
    <img src="./img/YUV_RGB.jpg">
