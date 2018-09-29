@@ -1,7 +1,7 @@
 # VICER_360ANDROID
 
 ## 소개
-* Samsung Gear360 와 연동되는 App으로 수신받은 frame을 Streaming Server 로 보내주는 기능을 수행한다.
+* Samsung Gear360 와 연동되는 App으로 수신받은 frame을 Streaming Server 로 보내주는 기능을 수행한다.<br>
       <img src="./img/gear360.jpg">
 
 #### Web Server 기능
